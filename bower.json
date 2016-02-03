@@ -21,5 +21,9 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "c3": "~0.4.8",
+    "font-awesome": "fontawesome#~4.2.0"
+  }
 }
