@@ -2,6 +2,7 @@ body {
     overflow: scroll;
 }
 
+/****** Multiple files ******/
 #background {
     position: fixed;
     left: 0;
@@ -9,9 +10,27 @@ body {
     z-index: 1;
 }
 
+footer {
+  padding: 20px 40px 30px 40px;
+}
+
+
 a {
     text-decoration: none;
     color: black;
+}
+#background {
+    overflow: scroll;
+    display: block;
+    height: 100%
+    widows: 100%;
+    background: radial-gradient(farthest-corner at 100% 100%, #BFE5C2, #52BECC);
+}
+#wrapper {
+    margin: 0 auto 0 auto;
+    width: 85%;
+    box-shadow: 2px 0px 15px #888888;
+    background-color: white;
 }
 /******** Header ************/
 header {
@@ -44,6 +63,14 @@ nav {
 
 #nav-links {
     margin-left: 7.5%;
+}
+/******** Loading Page ************/
+
+#loading {
+    text-align: center; 
+}
+#loading img {
+    text-align: 40px 0 40px 0; 
 }
 
 /******** Login Page ************/
