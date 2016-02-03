@@ -13,7 +13,40 @@ a {
     text-decoration: none;
     color: black;
 }
+/******** Header ************/
+header {
+    height: 60px;
+    background-color: white;
+}
 
+header span {
+    margin-left: 10px;
+}
+
+#logo {
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 10px;
+    float: left;
+    width: 200px;
+    height: 40px;
+    background: url('../img/slice-logo.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/******** Nav Bar ************/
+nav {
+    height: 35px;
+    background-color: #5F5F60;
+    color: white;
+}
+
+#nav-links {
+    margin-left: 7.5%;
+}
+
+/******** Login Page ************/
 .login-button, .login-button a {
     display: inline-block;
     text-align: center;
