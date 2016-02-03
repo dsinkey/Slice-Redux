@@ -17,6 +17,10 @@
     "grunt-mocha-test": "^0.12.4",
     "grunt-nodemon": "^0.3.0",
     "grunt-shell": "^1.1.1",
-    "mocha": "^2.0.1"
+    "mocha": "^2.0.1",
+    "mysql": "^2.10.2",
+    "passport": "^0.2.2",
+    "passport-slice": "^0.1.1",
+    "sequelize": "^2.1.3"
   }
 }
