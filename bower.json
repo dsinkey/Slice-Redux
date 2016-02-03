@@ -1,0 +1,25 @@
+{
+  "name": "SliceRedux",
+  "authors": [
+    "Dustin <dustinsinkey1@gmail.com>"
+  ],
+  "description": "\"Data visualiztion graph unsing Slice Tecnologies API\"",
+  "main": "\"public/js/app.js\"",
+  "moduleType": [],
+  "keywords": [
+    "react",
+    "d3",
+    "javascrip",
+    "mysql"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
