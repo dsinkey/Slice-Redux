@@ -21,6 +21,7 @@
     "mysql": "^2.10.2",
     "passport": "^0.2.2",
     "passport-slice": "^0.1.1",
+    "react": "^0.12.2",
     "sequelize": "^2.1.3"
   }
 }
