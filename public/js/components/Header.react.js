@@ -2,13 +2,17 @@ var React = require('react');
 
 var Header = React.createClass({
   render: function (){
-    return {
+    return (
       <header>
         <div id="logo"></div>
+        <span>
+          <a>
+            <span>Sign Out</span>
+          </a>
+        </span>
       </header>
-      <nav>
-        <div id="nav-links"></div>
-      </nav>
-    };
+    );
   }
 });
+
+module.exports = Header;
